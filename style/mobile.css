@@ -1,0 +1,100 @@
+@media (max-width: 670px) {
+    .nav-wrap {
+        display: none;
+    }
+    
+    .nav-mobile-wrap {
+        position: relative;
+        display: inline-block;
+        float: right;
+        margin-right: 15px;
+    }
+    
+    .dropbtn {
+        color: #fff;
+        padding: 10px;
+        font-size: 30px;
+        width: 110px;
+        border: none;
+        background-color: transparent;
+    }
+    
+    .dropbtn:hover {
+        background-color: rgba(93, 79, 96, 0.65);
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        float: right;
+        background-color: rgba(93, 79, 96, 0.65);
+        text-align: center;
+    }
+    
+    .dropdown-content a {
+        color: #fff;
+        background-color: transparent;
+        padding: 10px;
+        text-decoration: none;
+        display: block;
+        width: 110px;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: #bcb1b1;
+        color: #272623;
+    }
+    
+    .nav-mobile-wrap:hover .dropdown-content {
+        display: block;
+    }
+    
+    .heading-primary-main, .heading-primary-sub {
+        font-size: 20px;
+    }
+    .comments-wrap {
+        grid-template-columns: 1fr; 
+    }
+    
+    .yourComment form input, .yourComment form textarea {
+        width: 250px;
+    }
+    
+    #usluge > .column-wrapper {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    #usluge > .column-wrapper > .card {
+        width: auto;
+    }
+    
+    h2 {
+        font-size: 25px;
+    }
+    
+    #gallery > .column-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+    
+    .section2 .img-part {
+        order: 2;
+    }
+    
+    .section2 .text-part {
+        order: 1;
+    }
+    
+    .form {
+        width: 300px;
+    }
+    
+    .form input {
+        width: 250px;
+    }
+    
+    .form textarea {
+        width: 250px;
+    }
+}

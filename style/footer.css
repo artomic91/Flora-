@@ -1,0 +1,76 @@
+.footer {
+    position: relative;
+    bottom: 0;
+    background-color: #bcb1b1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    width: 100%;
+    margin: auto;
+}
+
+.footer > .logo-footer img {
+    margin-top: 10px;
+    width: 100px;
+}
+
+.footer > .footer-phone-hours span {
+    margin: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
+
+.footer > .links-wrapper {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.links-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.links-wrapper > .nav-link {
+    padding: 5px;
+    text-align: center;
+}
+
+.links-wrapper > .nav-link a {
+    color: #676060;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.links-wrapper > .nav-link a:hover{
+    color: #272623;
+    letter-spacing: 2px;
+}
+
+.footer > .social-media-icons-wrapper {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer > .social-media-icons-wrapper a {
+    font-size: 1.5em;
+    color: #676060;
+    transition: 0.5s;
+}
+
+.footer > .social-media-icons-wrapper a:hover {
+    color: #af6565;
+}
+
+.footer > .copyright-wrapper {
+    margin-bottom: 10px;
+    font-size: 0.8em;
+}

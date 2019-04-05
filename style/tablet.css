@@ -1,0 +1,17 @@
+@media (min-width: 670px) and (max-width: 1024px) {
+    
+    #gallery > .column-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+    
+    .section2 .img-part {
+        order: 2;
+    }
+    
+    .section2 .text-part {
+        order: 1;
+    }
+    
+}
